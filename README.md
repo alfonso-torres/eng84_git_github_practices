@@ -4,7 +4,7 @@
 
 We are going to practice and settle down the concepts of Git and GitHub.
 
-1. What are the stages of git on local host.
+__1. What are the stages of git on local host__
 
 Git has three main states that your files can reside in: modified, staged, and committed:
 
@@ -14,7 +14,7 @@ Git has three main states that your files can reside in: modified, staged, and c
 
 - Committed means that the data is safely stored in your local database.
 
-2. How can you reset/cancel if you have already run git add . command.
+__2. How can you reset/cancel if you have already run git add . command__
 
 When using Git, it is quite common for developers to add new files to their repositories during development.
 
@@ -30,13 +30,13 @@ Or you can use:
 
 without any file name to unstage all due changes.
 
-3. What is a git staging area.
+__3. What is a git staging area__
 
 Staging area is files that are going to be a part of the next commit, which lets git know what changes in the file are going to occur for the next commit.
 
 Imagine a box. You can put stuff into the box. You can take stuff out of the box. This box is the staging area of Git.
 
-4. Workflow and the stages.
+__4. Workflow and the stages__
 
 The three stages we have explained in the first point, this leads us to the three main sections of a Git project: the working tree, the staging area, and the Git directory.
 
@@ -58,7 +58,7 @@ The basic Git workflow goes something like this:
 
 If a particular version of a file is in the Git directory, it’s considered committed. If it has been modified and was added to the staging area, it is staged. And if it was changed since it was checked out but has not been staged, it is modified.
 
-5. Git merge and merge conflicts.
+__5. Git merge and merge conflicts__
 
 - Git Merge:
 
@@ -84,7 +84,7 @@ When you want to add a new feature or fix a bug, you spawn a new branch to encap
 
 The git merge command's primary responsibility is to combine separate branches and resolve any conflicting edits.
 
-6. Best practice to resolve git merge conflicts.
+__6. Best practice to resolve git merge conflicts__
 
 - How to resolve merge conflicts using the command line:
 
@@ -111,7 +111,7 @@ Git will see that the conflict has been resolved and creates a new merge commit 
 	13. Follow the directions to add the file and then commit.
 	14. Done.
 
-7. Research around best practices of git and git-hub.
+__7. Research around best practices of git and git-hub__
 
 - Don’t git push straight to master: 
 
